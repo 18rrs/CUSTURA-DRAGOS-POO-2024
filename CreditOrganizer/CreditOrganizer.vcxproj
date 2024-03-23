@@ -112,9 +112,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="CreditCardAccount.h" />
+    <ClInclude Include="LoyalityScheme.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CreditCardAccount.cpp" />
+    <ClCompile Include="CreditCardOrganiser.cpp" />
+    <ClCompile Include="LoyalityScheme.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
