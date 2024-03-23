@@ -5,7 +5,7 @@ using namespace System;
 
 LoyalityScheme::LoyalityScheme()
 {
-	Console::WriteLine("Congrats! You now qualify for bonus points");
+	Console::WriteLine("Felicitari! Acum puteti primi puncte bonus!");
 
 	totalPoints = 0;
 }
