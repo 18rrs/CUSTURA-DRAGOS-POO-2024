@@ -31,6 +31,8 @@ void LoyalityScheme::RedeemPoints(int points)
 	}
 }
 
+
+
 int LoyalityScheme::GetPoints()
 {
 	return totalPoints;
