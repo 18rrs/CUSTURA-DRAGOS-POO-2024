@@ -5,12 +5,12 @@ using namespace System;
 
 int main()
 {
-	Console::WriteLine("Creating an account object");
+	Console::WriteLine("Creare obiect nou");
 	CreditCardAccount^ account1;
 
 	int n = CreditCardAccount::GetNumberOfAccounts();
-	Console::WriteLine("Number of accounts now: {0}", n);
-	Console::WriteLine("Card name: {0}", CreditCardAccount::name);
+	Console::WriteLine("Numarul de conturi: {0}", n);
+	Console::WriteLine("Nume card: {0}", CreditCardAccount::name);
 
 	account1 = gcnew CreditCardAccount(12345, 2000);
 	Console::WriteLine("\nMaking a purchase");

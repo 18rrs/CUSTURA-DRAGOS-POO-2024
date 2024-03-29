@@ -1,1 +1,2 @@
 E:\UB\Tincu_Andrei_Victor-POO-2024\Animal\Animal\x64\Debug\Animal.vcxproj.AssemblyReference.cache
+C:\Users\admin\source\repos\18rrs\CUSTURA-DRAGOS-POO-2024\Animal\Animal\x64\Debug\Animal.vcxproj.AssemblyReference.cache

@@ -1,3 +1,8 @@
-﻿  Carte.cpp
+﻿  pch.cpp
+  AssemblyInfo.cpp
+  Carte.cpp
+  DetaliiCarte.cpp
+  Generating Code...
+  .NETFramework,Version=v4.8.AssemblyAttributes.cpp
   AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  Carte.vcxproj -> E:\UB\Tincu_Andrei_Victor-POO-2024\Carte\x64\Debug\Carte.exe
+  Carte.vcxproj -> C:\Users\admin\source\repos\18rrs\CUSTURA-DRAGOS-POO-2024\Carte\x64\Debug\Carte.exe

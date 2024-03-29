@@ -1,3 +1,7 @@
-﻿  Person.cpp
+﻿  pch.cpp
+  AssemblyInfo.cpp
+  Person.cpp
+  Generating Code...
+  .NETFramework,Version=v4.8.AssemblyAttributes.cpp
   AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  Person.vcxproj -> E:\UB\Tincu_Andrei_Victor-POO-2024\Person\x64\Debug\Person.exe
+  Person.vcxproj -> C:\Users\admin\source\repos\18rrs\CUSTURA-DRAGOS-POO-2024\Person\x64\Debug\Person.exe
