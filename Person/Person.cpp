@@ -39,22 +39,22 @@ int main()
     cin >> people_count;
     IPerson* people = new IPerson[people_count];
     for (int i = 0; i < people_count; i++) {
-        Console::WriteLine("Introduceti numele persoanei{0}:, ", i + 1);
+        Console::WriteLine("Introduceti numele persoanei {0}:, ", i + 1);
         char ln[20];
         cin >> ln;
         strcpy_s(people[i].lastName, 20, ln);
-        Console::WriteLine("Introduceti prenumele persoanei{0}:, ", i + 1);
+        Console::WriteLine("Introduceti prenumele persoanei {0}:, ", i + 1);
         char fn[20];
         cin >> fn;
         strcpy_s(people[i].firstName, 20, fn);
-        Console::WriteLine("Introoduceti varsta persoanei {0} ", i + 1);
+        Console::WriteLine("Introduceti varsta", i + 1);
         unsigned age;
         cin >> age;
         people[i].age = age;
     }
-    Console::WriteLine("Afisam numele persoanelor si varstele aferente: ");
+    Console::WriteLine("Afisam numele persoanelor si varstele lor: ");
     for (int i = 0; i < people_count; i++) {
-        cout << people[i].firstName << " " << people[i].lastName << "\t" << people[i].age << endl;
+        cout << people[i].firstName << " " << people[i].lastName << "\t" << people[i].age << " ani" << endl;
     }
-    Console::ReadKey();//Mentine fereastra deschisa
+    Console::ReadKey();
 }

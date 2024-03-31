@@ -18,14 +18,14 @@ private:
 
 int main(array<System::String^>^ args)
 {
-	Animal cat, dog;
-	cat.SetName("Cat");
-	cat.legs = 4;
-	dog.SetName("Dog");
-	dog.legs = 4;
+	Animal cal, oaie;
+	cal.SetName("Cal");
+	cal.legs = 4;
+	oaie.SetName("Oaie");
+	oaie.legs = 4;
 
-	Console::WriteLine("Animal  1 - name: {0}, legs: {1}", cat.GetName(), cat.legs);
-	Console::WriteLine("Animal  2 - name: {0}, legs: {1}", dog.GetName(), dog.legs);
+	Console::WriteLine("Animal  1 - nume: {0}, picioare: {1}", cal.GetName(), cal.legs);
+	Console::WriteLine("Animal  2 - nume: {0}, picioare: {1}", oaie.GetName(), oaie.legs);
 	Console::WriteLine();
 	return 0;
 }
